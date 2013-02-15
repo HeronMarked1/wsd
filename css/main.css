@@ -58,5 +58,10 @@ h1 {
 
 #gallery {
 	clear: left;
+}
+
+#gallery li {
 	float: left;
+	display: block;
+	border: 2px;
 }

@@ -67,11 +67,12 @@ h1 {
 
 #gallery ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 10px 0px 0px 0px;
 	padding: 0;
 	border-width: 2px;
 	border-style: dotted;
 	border-color: #f00;
+	overflow: hidden;
 }
 
 #gallery li {

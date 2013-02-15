@@ -111,6 +111,9 @@ h1 {
 
 #lessons_guitar {
 	clear: left;
+	float: left;
+	width: 305px;
+	padding: 5px;
 }
 
 h2 {
@@ -121,11 +124,26 @@ h2 {
 	font-family: oxygen, calibri, sans-serif;
 }
 
+#lessons_theory {
+	float: left;
+	width: 305px;
+	padding: 5px;
+}
+
 /* aside styling ----------------------------------------------------- */
 
 aside {
+	float: left;
+	width: 305px;
+	padding: 5px;
 	background: #fff;
 	color: 445394
 	text-shadow: 1px 1px 1px #111;
 	padding: 5px;
+}
+
+/* article styling --------------------------------------------------- */
+
+#about_instructor {
+	clear: left;
 }

@@ -28,6 +28,10 @@ h1 {
 	font-family: "lucida sans", ariel, sans-serif;
 }
 
+#nav_main ul {
+	list-style-type: none;
+}
+
 #nav_main li {
 	float: left;
 	display: block;
@@ -62,6 +66,7 @@ h1 {
 }
 
 #gallery ul {
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	border-width: 2px;

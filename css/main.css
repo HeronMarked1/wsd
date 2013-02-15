@@ -112,3 +112,11 @@ h1 {
 #lessons_guitar {
 	clear: left;
 }
+
+h2 {
+	font-family: "roboto condensed", ariel, sans-serif;
+}
+
+.text_main {
+	font-family: oxygen, calibri, sans-serif;
+}

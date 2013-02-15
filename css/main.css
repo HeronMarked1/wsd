@@ -197,4 +197,10 @@ h3 {
 
 #form_signup {
 	clear: left;
+	background: #fff;
+	height: 360px;
+	border-radius: 10px;
+	opacity: 0.9;
+	padding: 15px;
+	margin: 20px 0px 15px 0px;
 }

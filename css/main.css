@@ -46,6 +46,7 @@ h1 {
 	line-height: 30px;
 	text-align: center;
 	background: #f00;
+	border-radius: 5px;
 }
 
 #nav_main a {

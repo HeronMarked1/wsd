@@ -1,5 +1,12 @@
 /* css for studio lesson web page for wsd class at full sail university */
 
+/* site header -------------------------------------------- */
+
+body {
+	background-color: #dcdde0;
+	width: 960px;
+}
+
 header {
 	background-color: #445394;
 	height: 175px;
@@ -12,15 +19,6 @@ header {
 
 h1 {
 	text-indent: -50000px;
-}
-
-#gallery {
-	clear: left;
-}
-
-body {
-	background-color: #dcdde0;
-	width: 960px;
 }
 
 #nav_main {
@@ -45,8 +43,19 @@ body {
 	width: 200px
 }
 
-#nav_main a:link {
+#nav_main a:link, #nav_main a:visited {
 	text-decoration: none;
 	color: #fff;
 	font-family: "lucida sans" ariel sans-serif;
+}
+
+#nav_main a:hover {
+	background: #fff;
+	color: #f00;
+}
+
+/*gallery section --------------------------------------------------- */
+
+#gallery {
+	clear: left;
 }

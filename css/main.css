@@ -11,6 +11,7 @@ header {
 	background-color: #445394;
 	height: 175px;
 	overflow: hidden;
+	padding: 10px;
 }
 
 #logo {
@@ -23,7 +24,6 @@ h1 {
 
 #nav_main {
 	overflow: hidden;
-	margin-top: 10px;
 	font-family: "lucida sans", ariel, sans-serif;
 }
 
@@ -58,4 +58,5 @@ h1 {
 
 #gallery {
 	clear: left;
+	float: left;
 }

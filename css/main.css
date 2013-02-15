@@ -28,6 +28,7 @@ h1 {
 #nav_main {
 	overflow: hidden;
 	font-family: "lucida sans", ariel, sans-serif;
+	text-shadow: 1px 1px 1px #111;
 }
 
 #nav_main ul {

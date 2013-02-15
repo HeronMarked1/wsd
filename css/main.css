@@ -4,6 +4,10 @@
 	float: left;
 }
 
+h1 {
+	text-indent: -50000px;
+}
+
 #gallery {
 	clear: left;
 }

@@ -4,6 +4,10 @@
 	float: left;
 }
 
+#gallery {
+	clear: left;
+}
+
 body {
 	background-color: e6e8f2;
 }

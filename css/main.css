@@ -13,7 +13,8 @@ h1 {
 }
 
 body {
-	background-color: e6e8f2;
+	background-color: #e6e8f2;
+	width: 960px;
 }
 
 #nav_main {

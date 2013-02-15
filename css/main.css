@@ -1,6 +1,6 @@
 /* css for studio lesson web page for wsd class at full sail university */
 
-/* site header -------------------------------------------- */
+/* site header ------------------------------------------------------- */
 
 body {
 	background-color: #dcdde0;
@@ -55,7 +55,7 @@ h1 {
 	color: #f00;
 }
 
-/*gallery section --------------------------------------------------- */
+/*gallery section ---------------------------------------------------- */
 
 #gallery {
 	clear: left;
@@ -72,4 +72,8 @@ h1 {
 	border: 2px;
 }
 
-/*end of gallery section --------------------------------------------- */
+/*lesson information section ----------------------------------------- */
+
+#lessons_guitar {
+	clear: left;
+}

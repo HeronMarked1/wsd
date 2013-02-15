@@ -64,6 +64,9 @@ h1 {
 #gallery ul {
 	margin: 0;
 	padding: 0;
+	border-width: 2px;
+	border-style: dotted;
+	border-color: #f00;
 }
 
 #gallery li {

@@ -149,6 +149,21 @@ aside {
 
 /* article styling --------------------------------------------------- */
 
-#about_instructor {
+article {
+	clear: left;
+}
+
+h3 {
+	font-family: ariel, sans-serif;
+	font-style: italic;
+}
+
+#about_instructor img {
+	float: left;
+}
+
+/* form styling ------------------------------------------------------ */
+
+#form_signup {
 	clear: left;
 }

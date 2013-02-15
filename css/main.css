@@ -3,7 +3,8 @@
 /* site header ------------------------------------------------------- */
 
 body {
-	background-color: #dcdde0;
+	background-image: url(../images/bg_gradient.jpg);
+	background-repeat: -x
 	width: 960px;
 	padding: 10px;
 	margin: auto;
@@ -16,6 +17,7 @@ header {
 	padding: 10px;
 	box-shadow: 2px 2px 2px #111;
 	border-radius: 10px;
+	opacity: 0.9;
 }
 
 #logo {
@@ -134,13 +136,13 @@ h2 {
 
 /* aside styling ----------------------------------------------------- */
 
-aside {
+aside span {
 	float: left;
 	width: 305px;
 	padding: 10px;
 	margin: 100px 0px 0px 0px;
 	background: #fff;
-	color: 445394;
+	color: #445394;
 	text-shadow: 1px 1px 1px #e8e9ed;
 	text-align: center;
 	font-size: 150%;
@@ -152,15 +154,41 @@ aside {
 
 article {
 	clear: left;
+	background: #445394;
+	opacity: 0.9;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#about_instructor h2 {
+	color: #fff;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px #111;
+	font-size: xx-large;
 }
 
 h3 {
 	font-family: ariel, sans-serif;
 	font-style: italic;
+	color: #fff;
+	text-shadow: 1px 1px 1px #111;
+	text-indent: 25px;
 }
 
 #about_instructor img {
 	float: left;
+	margin-right: 15px;
+	box-shadow: 2px 2px 2px #111;
+}
+
+#about_instructor p {
+	padding: 15px;
+	color: #fff;
+	text-align: justify;
+	text-shadow: 1px 1px 1px #111;
+	font-size: 120%;
+	line-height: 120%;
 }
 
 /* form styling ------------------------------------------------------ */

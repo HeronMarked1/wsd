@@ -1,2 +1,9 @@
 /* css for studio lesson web page for wsd class at full sail university */
 
+body {
+	background-color: e6e8f2;
+}
+
+#nav_main {
+	background-color: grey;
+}

@@ -69,7 +69,9 @@ h1 {
 #gallery li {
 	float: left;
 	display: block;
-	border: 2px;
+	padding: 5px;
+	height: 128px;
+	overflow: hidden;
 }
 
 /*lesson information section ----------------------------------------- */

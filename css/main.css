@@ -91,6 +91,20 @@ h1 {
 	overflow: hidden;
 }
 
+#gallery a {
+	display: block;
+	height: 128px;
+	width: 228px;
+}
+
+#gallery a:hover {
+	border: 2px solid #f00;
+}
+
+#gallery a:active {
+	border: 2px solid #fff;
+}
+
 /*lesson information section ----------------------------------------- */
 
 #lessons_guitar {

@@ -4,7 +4,6 @@
 
 body {
 	background-image: url(../images/bg_gradient.jpg);
-	background-repeat: -x;
 	width: 960px;
 	padding: 10px;
 	margin: auto;
@@ -204,3 +203,4 @@ h3 {
 	padding: 15px;
 	margin: 20px 0px 15px 0px;
 	box-shadow: 2px 2px 2px #111;
+}

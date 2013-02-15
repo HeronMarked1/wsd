@@ -78,8 +78,9 @@ h1 {
 #gallery ul {
 	list-style-type: none;
 	width: 960px;
+	height: 128px;
 	margin: 10px 0px 0px 0px;
-	padding: 0;
+	padding: 5px 0px 5px;
 	overflow: hidden;
 }
 

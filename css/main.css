@@ -43,3 +43,7 @@ body {
 	height: 30px
 	width: 200px
 }
+
+#nav_main a:link {
+	text-decoration: none;
+}

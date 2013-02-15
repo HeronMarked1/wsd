@@ -26,13 +26,16 @@ h1 {
 }
 
 #nav_main {
-	overflow: hidden;
-	font-family: "lucida sans", ariel, sans-serif;
+	font-family: "roboto condensed", ariel, sans-serif;
+	font-size: 15pt;
 	text-shadow: 1px 1px 1px #111;
+	overflow: hidden;	
 }
 
 #nav_main ul {
+	float: left;
 	list-style-type: none;
+	overflow: hidden;
 }
 
 #nav_main li {
@@ -60,6 +63,10 @@ h1 {
 #nav_main a:hover {
 	background: #fff;
 	color: #f00;
+}
+
+#nav_main a:active {
+	color: #445394;
 }
 
 /*gallery section ---------------------------------------------------- */

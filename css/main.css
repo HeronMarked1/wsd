@@ -1,5 +1,10 @@
 /* css for studio lesson web page for wsd class at full sail university */
 
+header {
+	background-color: #445394;
+	overflow: hidden;
+}
+
 #logo {
 	float: left;
 }
@@ -18,7 +23,6 @@ body {
 }
 
 #nav_main {
-	background-color: grey;
 	overflow: hidden;
 	margin: 0 auto;
 }

@@ -161,6 +161,7 @@ article {
 	border-radius: 10px;
 	overflow: hidden;
 	padding: 10px;
+	box-shadow: 2px 2px 2px #111;
 }
 
 #about_instructor h2 {
@@ -203,4 +204,8 @@ h3 {
 	opacity: 0.9;
 	padding: 15px;
 	margin: 20px 0px 15px 0px;
+	box-shadow: 2px 2px 2px #111;
+
+#form_signup img {
+	margin: 200px;
 }

@@ -3,6 +3,7 @@
 /* site header ------------------------------------------------------- */
 
 body {
+	background-color: #eae8ed;
 	background-image: url(../images/bg_gradient.jpg);
 	width: 960px;
 	padding: 10px;
@@ -16,7 +17,7 @@ header {
 	padding: 10px;
 	box-shadow: 2px 2px 2px #111;
 	border-radius: 10px;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 #logo {
@@ -148,6 +149,7 @@ aside span {
 	font-size: 150%;
 	box-shadow: 2px 2px 2px #111;
 	border-radius: 10px;
+	opacity: 0.8;
 }
 
 /* article styling --------------------------------------------------- */
@@ -155,7 +157,7 @@ aside span {
 article {
 	clear: left;
 	background: #445394;
-	opacity: 0.9;
+	opacity: 0.8;
 	border-radius: 10px;
 	overflow: hidden;
 	padding: 10px;
@@ -199,7 +201,7 @@ h3 {
 	background: #fff;
 	height: 360px;
 	border-radius: 10px;
-	opacity: 0.9;
+	opacity: 0.8;
 	padding: 15px;
 	margin: 20px 0px 15px 0px;
 	box-shadow: 2px 2px 2px #111;

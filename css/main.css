@@ -220,7 +220,8 @@ h3 {
 	width: 299px;
 	height: 59px;
 	color: #fff;	
-	text-decoration: none;	
+	text-decoration: none;
+	border-radius: 6px;	
 }
 
 #form_signup a:hover {

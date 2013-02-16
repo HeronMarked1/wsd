@@ -204,3 +204,29 @@ h3 {
 	margin: 20px 0px 15px 0px;
 	box-shadow: 2px 2px 2px #111;
 }
+
+.text_button {
+	font-family: "roboto condensed", ariel, sans-serif;
+	font-weight: bold;
+	font-size: 22pt;
+	text-shadow: 1px 1px 1px #111;
+	text-align: center;
+	line-height: 59px;
+}
+
+#form_signup a {
+	background-image: url(../images/button_signup.png);
+	display: block;
+	width: 299px;
+	height: 59px;
+	color: #fff;	
+	text-decoration: none;	
+}
+
+#form_signup a:hover {
+	opacity: 0.8;
+}
+
+#form_signup a:active {
+	color: #445394;
+}

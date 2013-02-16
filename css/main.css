@@ -208,8 +208,8 @@ h3 {
 .text_button {
 	font-family: "roboto condensed", ariel, sans-serif;
 	font-weight: bold;
-	font-size: 22pt;
-	text-shadow: 1px 1px 1px #111;
+	font-size: 26pt;
+	text-shadow: 2px 2px 2px #111;
 	text-align: center;
 	line-height: 59px;
 }

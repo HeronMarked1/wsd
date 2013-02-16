@@ -11,9 +11,9 @@
 body {
 	background-color: rgb(234, 232, 237);
 	background-image: url(../images/bg_gradient.jpg);
-	width: 960px;
-	padding: 10px;
-	margin: auto;
+	max-width: 960px;
+	padding: 0.010416667%; /* 10px/960px */
+	margin: 0 auto;
 }
 
 header {

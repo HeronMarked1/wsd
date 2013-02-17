@@ -26,9 +26,13 @@ header {
 }
 
 #logo {
-	float: left;
+	float; left;
+	overflow: hidden;
+}
+
+/* #logo img {
 	width: 26.5625%; /* 255px */
-	height:19.270833%; /* 185px */
+	/* height:19.270833%; /* 185px */
 }
 
 h1 {

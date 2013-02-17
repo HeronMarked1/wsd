@@ -38,22 +38,24 @@ h1 {
 	font-family: "roboto condensed", ariel, sans-serif;
 	font-size: 15pt;
 	text-shadow: 1px 1px 1px #111;
-	width: 62.5%; /* 600px/960px */
+	width: 66.666667%; /* 640px/960px */
 	height: 40px; /* 40px/175px */
 	background: rgb(207, 29, 41);
 	border-radius: 5px;
+	padding: 0px;
+	margin: 0px;
 }
 
 #nav_main ul {
 	list-style-type: none;
 	overflow: hidden;
-	margin: 0px;
+	margin: 0px 0px;
 }
 
 #nav_main li {
 	float: left;
 	display: block;
-	width: 33.333333%; /* 200px/600px */
+	width: 33.3333333333333333333333%; /* 213px/640px */
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
@@ -62,6 +64,7 @@ h1 {
 #nav_main a {
 	display: block;
 	border-radius: 5px;
+	width: 100%;
 }
 
 #nav_main a:link, #nav_main a:visited {

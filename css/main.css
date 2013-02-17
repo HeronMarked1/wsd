@@ -42,14 +42,13 @@ h1 {
 	height: 40px; /* 40px/175px */
 	background: rgb(207, 29, 41);
 	border-radius: 5px;
-	padding: 0px;
-	margin: 0px;
 }
 
 #nav_main ul {
 	list-style-type: none;
 	overflow: hidden;
-	margin: 0px 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 #nav_main li {
@@ -64,7 +63,6 @@ h1 {
 #nav_main a {
 	display: block;
 	border-radius: 5px;
-	width: 100%;
 }
 
 #nav_main a:link, #nav_main a:visited {

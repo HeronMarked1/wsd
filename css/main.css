@@ -12,7 +12,7 @@ body {
 	background-color: rgb(234, 232, 237);
 	background-image: url(../images/bg_gradient.jpg);
 	max-width: 960px;
-	padding: 0.010416667%; /* 10px/960px */
+	padding: 1.0416667%; /* 10px/960px */
 	margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@ header {
 	background-color: rgba(68, 83, 148, 0.8);
 	height: 175px;
 	overflow: hidden;
-	padding: 10px;
+	padding: 1.0416667%; /* 10px/960px */
 	box-shadow: 2px 2px 2px #111;
 	border-radius: 10px;
 }
@@ -34,33 +34,33 @@ h1 {
 }
 
 #nav_main {
+	float: right;
 	font-family: "roboto condensed", ariel, sans-serif;
 	font-size: 15pt;
 	text-shadow: 1px 1px 1px #111;
-	overflow: hidden;	
+	width: 62.5%; /* 600px/960px */
+	height: 40px; /* 40px/175px */
+	background: rgb(207, 29, 41);
+	border-radius: 5px;
 }
 
 #nav_main ul {
-	float: left;
 	list-style-type: none;
 	overflow: hidden;
+	margin: 0px;
 }
 
 #nav_main li {
 	float: left;
 	display: block;
-	width: 200px;
+	width: 33.333333%; /* 200px/600px */
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
-	background: rgb(207, 29, 41);
-	border-radius: 5px;
 }
 
 #nav_main a {
 	display: block;
-	height: 40px;
-	width: 200px;
 	border-radius: 5px;
 }
 
@@ -87,8 +87,8 @@ h1 {
 
 #gallery ul {
 	list-style-type: none;
-	width: 960px;
-	height: 128px;
+	width: 100%; /* 960px */
+	max-height: 128px;
 	margin: 10px 0px 0px 0px;
 	padding: 5px 0px 5px;
 	overflow: hidden;

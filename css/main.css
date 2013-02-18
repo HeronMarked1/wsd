@@ -46,7 +46,6 @@ h1 {
 
 #logo img {
 	width: 100%; /* 153px/960px */
-	height: 100%; /* 100px/110px */
 }
 
 #nav_main {
@@ -70,7 +69,7 @@ h1 {
 	display: block;
 	width: 33.3333333333333333333333%; /* 213px/640px */
 	height: 36.363636%; /* 40px/110px */
-	line-height: 40px; /* 40px/110px */
+	line-height: 250%; /* 40px/110px */
 	text-align: center;
 }
 

@@ -2,15 +2,15 @@
 
 /* color palette=========================================================>
 		blueish gray - (hex)#eae8ed (rgb)234, 232, 237
-		blue - (hex) #445394 (rgb)68, 83, 148
-		red - (hex) #cf1ds9 (rgb) 207, 29, 41
+		blue - (hex)#445394 (rgb)68, 83, 148
+		red - (hex)#cf1ds9 (rgb)207, 29, 41
 		
 
 /* padding & margin control ------------------------------------------- */
 
 header, nav, div, p, ul, li, aside, article, footer, img, a, ol, section, blockquote, h1, h2,
 h3, h4, span {
-	margin: 0px;
+	margin: 0 auto;
 	padding: 0px;
 }
 
@@ -97,29 +97,27 @@ h1 {
 
 #gallery {
 	clear: left;
+	margin: 40px auto 0px 0px;
+	height: 128px;
 }
 
 #gallery ul {
 	list-style-type: none;
 	width: 100%; /* 960px */
-	max-height: 128px;
-	margin: 10px 0px 0px 0px;
-	padding: 5px 0px 5px;
+	height: inherit;
 	overflow: hidden;
 }
 
 #gallery li {
 	float: left;
 	display: block;
-	padding: 5px;
-	height: 128px;
+	width: 23.75%; /* 228px/960px */
+	margin: 0.52083333%; /* 5px/960px */
 	overflow: hidden;
 }
 
 #gallery a {
 	display: block;
-	height: 128px;
-	width: 228px;
 }
 
 #gallery a:hover {

@@ -51,7 +51,7 @@ h1 {
 #nav_main {
 	float: right;
 	font-family: "roboto condensed", ariel, sans-serif;
-	font-size: 93.75%;
+	font-size: 125%;
 	text-shadow: 1px 1px 1px #111;
 	width: 66.666667%; /* 640px/960px */
 	height: 36.363636%; /* 40px/110px */
@@ -69,7 +69,7 @@ h1 {
 	display: block;
 	width: 33.3333333333333333333333%; /* 213px/640px */
 	height: 36.363636%; /* 40px/110px */
-	line-height: 250%; /* 40px/110px */
+	line-height: 125%; /* 40px/110px */
 	text-align: center;
 }
 
@@ -81,7 +81,6 @@ h1 {
 #nav_main a:link, #nav_main a:visited {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
-	font-size: 16pt;
 }
 
 #nav_main a:hover {
@@ -90,6 +89,24 @@ h1 {
 }
 
 #nav_main a:active {
+	color: rgb(68, 83, 148);
+}
+
+header p a {
+	background-image: url(../images/button_signup.png);
+	display: block;
+	width: 31.145833%; /* 299px/960px */
+	height: 59px;
+	color: rgb(255, 255, 255);	
+	text-decoration: none;
+	border-radius: 6px;	
+}
+
+header p a:hover {
+	opacity: 0.8;
+}
+
+header p a:active {
 	color: rgb(68, 83, 148);
 }
 

@@ -20,7 +20,7 @@ body {
 	background-color: rgb(234, 232, 237);
 	background-image: url(../images/bg_gradient.jpg);
 	max-width: 960px;
-	padding: 1.0416667%; /* 10px/960px */
+ 	padding: 1.0416667% 0; /* 10px/960px */
 	margin: 0 auto;
 }
 
@@ -157,7 +157,7 @@ header p a:active {
 #lessons_guitar {
 	clear: left;
 	float: left;
-	width: 305px;
+	width: 31.770833%; /* 305px/960px*/
 	margin: 10px auto 0px;
 	padding: 5px;
 }
@@ -173,7 +173,7 @@ h2 {
 
 #lessons_theory {
 	float: left;
-	width: 305px;
+	width: 31.770833%; /* 305px/960px*/
 	margin: 10px auto 0px;
 	padding: 5px;
 }
@@ -182,7 +182,7 @@ h2 {
 
 aside span {
 	float: left;
-	width: 305px;
+	width: 31.770833%; /* 305px/960px*/
 	padding: 10px;
 	margin: 100px 0px 0px 0px;
 	background: rgb(255, 255, 255);

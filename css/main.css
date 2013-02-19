@@ -159,7 +159,7 @@ header p a:active {
 	float: left;
 	width: 31.770833%; /* 305px/960px*/
 	margin: 10px auto 0px;
-	padding: 5px;
+	padding: 0.52083333%; /* 5px/960px */
 }
 
 h2 {
@@ -175,7 +175,7 @@ h2 {
 	float: left;
 	width: 31.770833%; /* 305px/960px*/
 	margin: 10px auto 0px;
-	padding: 5px;
+	padding: 0.52083333%; /* 5px/960px */
 }
 
 /* aside styling ----------------------------------------------------- */
@@ -183,16 +183,15 @@ h2 {
 aside span {
 	float: left;
 	width: 31.770833%; /* 305px/960px*/
-	padding: 10px;
-	margin: 100px 0px 0px 0px;
+	padding: 1.0416667%; /* 10px/960px */
+	margin: 5.7291667% 0px; /* 55px/960px */
 	background: rgb(255, 255, 255);
-	color: rgb(68, 83, 148);
+	color: rgba(68, 83, 148, 0.8);
 	text-shadow: 1px 1px 1px #111;
 	text-align: center;
 	font-size: 150%;
 	box-shadow: 2px 2px 2px #111;
 	border-radius: 10px;
-	opacity: 0.8;
 }
 
 /* article styling --------------------------------------------------- */

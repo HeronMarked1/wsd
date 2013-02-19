@@ -164,6 +164,7 @@ header p a:active {
 
 h2 {
 	font-family: "roboto condensed", ariel, sans-serif;
+	font-size: 150%;
 }
 
 #lessons_guitar {
@@ -205,7 +206,6 @@ article {
 	color: rgb(255, 255, 255);
 	text-decoration: underline;
 	text-shadow: 1px 1px 1px #111;
-	font-size: xx-large;
 }
 
 h3 {
@@ -213,12 +213,12 @@ h3 {
 	font-style: italic;
 	color: rgb(255, 255, 255);
 	text-shadow: 1px 1px 1px #111;
-	text-indent: 25px;
+	text-indent: 4.0322581%; /* 25px/620px */
 }
 
 #about_instructor img {
 	float: left;
-	margin-right: 15px;
+	margin: 2.4193548% 2.4193548%  0px 2.4193548%; /* 15px/620px */
 	box-shadow: 2px 2px 2px #111;
 }
 
@@ -227,7 +227,6 @@ h3 {
 	color: rgb(255, 255, 255);
 	text-align: justify;
 	text-shadow: 1px 1px 1px #111;
-	font-size: 120%;
 	line-height: 120%;
 }
 
@@ -256,8 +255,9 @@ aside span {
 	border-radius: 10px;
 	opacity: 0.8;
 	padding: 15px;
-	margin: 20px 0px 15px 0px;
+	margin: 25px 0px 0px;
 	box-shadow: 2px 2px 2px #111;
+	overflow: hidden;
 }
 
 .text_button {

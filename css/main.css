@@ -291,6 +291,10 @@ aside span {
 
 footer {
 	clear: left;
+	overflow: auto;
+}
+
+footer p{
 	text-align: center;
 	margin: 10px auto;
 }

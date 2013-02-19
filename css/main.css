@@ -3,7 +3,7 @@
 /* color palette=========================================================>
 		blueish gray - (hex)#eae8ed (rgb)234, 232, 237
 		blue - (hex)#445394 (rgb)68, 83, 148
-		red - (hex)#cf1ds9 (rgb)207, 29, 41
+		red - (hex)#cf1ds9 (rgb)207, 29, 41   */
 		
 
 /* padding & margin control ------------------------------------------- */
@@ -69,7 +69,7 @@ h1 {
 	display: block;
 	width: 33.3333333333333333333333%; /* 213px/640px */
 	height: 36.363636%; /* 40px/110px */
-	line-height: 125%; /* 40px/110px */
+	line-height: 185%; /* 40px/110px */
 	text-align: center;
 }
 
@@ -92,11 +92,18 @@ h1 {
 	color: rgb(68, 83, 148);
 }
 
+header p {
+	float: left;
+	width: 66.666667%; /* 640px/960px */
+	margin-top: 8px;
+	margin-left: 11.25%; /* 108px/960px */
+}
+
 header p a {
 	background-image: url(../images/button_signup.png);
 	display: block;
-	width: 31.145833%; /* 299px/960px */
-	height: 59px;
+	width: 46.71875%; /* 299px/640px */
+	height: 59%; /* 59px/100px */
 	color: rgb(255, 255, 255);	
 	text-decoration: none;
 	border-radius: 6px;	
@@ -151,6 +158,7 @@ header p a:active {
 	clear: left;
 	float: left;
 	width: 305px;
+	margin: 10px auto 0px;
 	padding: 5px;
 }
 
@@ -166,6 +174,7 @@ h2 {
 #lessons_theory {
 	float: left;
 	width: 305px;
+	margin: 10px auto 0px;
 	padding: 5px;
 }
 

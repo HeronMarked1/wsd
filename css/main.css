@@ -14,13 +14,21 @@ h3, h4, span {
 	padding: 0px;
 }
 
+/* main font rules */
+
+.text_main {
+	font-family: oxygen, calibri, sans-serif;
+	font-size: 106.3%;
+}
+
 /* site header ------------------------------------------------------- */
 
 body {
 	background-color: rgb(234, 232, 237);
 	background-image: url(../images/bg_gradient.jpg);
 	max-width: 960px;
- 	padding: 1.0416667% 0; /* 10px/960px */
+ 	padding-top: 1.0416667%; /* 10px/960px */
+  	padding-bottom: 1.0416667%; /* 10px/960px */
 	margin: 0 auto;
 }
 
@@ -154,54 +162,42 @@ header p a:active {
 
 /*lesson information section ----------------------------------------- */
 
-#lessons_guitar {
-	clear: left;
-	float: left;
-	width: 31.770833%; /* 305px/960px*/
-	margin: 10px auto 0px;
-	padding: 0.52083333%; /* 5px/960px */
-}
-
 h2 {
 	font-family: "roboto condensed", ariel, sans-serif;
 }
 
-.text_main {
-	font-family: oxygen, calibri, sans-serif;
-	font-size: 100%;
+#lessons_guitar {
+	clear: left;
+	float: left;
+	width: 48.958333%; /* 470px/960px*/
+	margin: 25px auto 0px;
+	padding: 0.52083333%; /* 5px/960px */
+}
+
+#lessons_guitar ul, #lessons_theory ul {
+	padding-left: 7.2916667%; /* 35px/480px */
+	margin-top: 1.6393443%; /* 5px/305px */ 
+	line-height: 175%;
 }
 
 #lessons_theory {
 	float: left;
-	width: 31.770833%; /* 305px/960px*/
-	margin: 10px auto 0px;
+	width: 48.958333%; /* 470px/960px*/
+	margin: 25px auto 0px;
 	padding: 0.52083333%; /* 5px/960px */
-}
-
-/* aside styling ----------------------------------------------------- */
-
-aside span {
-	float: left;
-	width: 31.770833%; /* 305px/960px*/
-	padding: 1.0416667%; /* 10px/960px */
-	margin: 5.7291667% 0px; /* 55px/960px */
-	background: rgb(255, 255, 255);
-	color: rgba(68, 83, 148, 0.8);
-	text-shadow: 1px 1px 1px #111;
-	text-align: center;
-	font-size: 150%;
-	box-shadow: 2px 2px 2px #111;
-	border-radius: 10px;
 }
 
 /* article styling --------------------------------------------------- */
 
 article {
 	clear: left;
+	float: left;
+	width: 64.583333%; /* 620px/960px */
 	background: rgba(68, 83, 148, 0.8);
 	border-radius: 10px;
 	overflow: hidden;
-	padding: 10px;
+	margin: 40px 1.0416667% 0px 0px;
+	padding: 1.6129032%; /* 10px/620px */
 	box-shadow: 2px 2px 2px #111;
 }
 
@@ -233,6 +229,22 @@ h3 {
 	text-shadow: 1px 1px 1px #111;
 	font-size: 120%;
 	line-height: 120%;
+}
+
+/* aside styling ----------------------------------------------------- */
+
+aside span {
+	float: left;
+	width: 29%; 
+	padding: 1.0416667%; /* 10px/960px */
+	margin: 40px auto 0px;
+	background: rgb(255, 255, 255);
+	color: rgba(68, 83, 148, 0.8);
+	text-shadow: 1px 1px 1px #111;
+	text-align: center;
+	font-size: 150%;
+	box-shadow: 2px 2px 2px #111;
+	border-radius: 10px;
 }
 
 /* form styling ------------------------------------------------------ */

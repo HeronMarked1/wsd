@@ -199,7 +199,7 @@ article {
 	background: rgba(68, 83, 148, 0.8);
 	border-radius: 10px;
 	overflow: hidden;
-	margin: 40px 1.0416667% 0px 0px;
+	margin: 40px 1.0416667% 0px 0px; /* 10px/960px */
 	padding: 1.6129032%; /* 10px/620px */
 	box-shadow: 2px 2px 2px #111;
 }
@@ -220,12 +220,13 @@ h3 {
 
 #about_instructor img {
 	float: left;
+	width: 28.225806%; /* 175px/620px */
 	margin: 2.4193548% 2.4193548%  0px 2.4193548%; /* 15px/620px */
 	box-shadow: 2px 2px 2px #111;
 }
 
 #about_instructor p {
-	padding: 15px;
+	padding: 2.4193548%; /* 15px/620px */
 	color: rgb(255, 255, 255);
 	text-align: justify;
 	text-shadow: 1px 1px 1px #111;
@@ -300,3 +301,23 @@ footer p{
 	text-align: center;
 	margin: 10px auto;
 }
+
+/* media queries ------------------------------------------------------- */
+
+	/* tablet portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 959px) {
+	article p {
+		width: 58.870968%; /* 365px/620px */
+		float: right;
+	}
+}
+
+	/* mobile landscape size to tablet portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+	/* mobile portrait size to mobile landscape size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+}
+	
+	

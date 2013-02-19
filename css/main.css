@@ -150,10 +150,12 @@ header p a:active {
 
 #gallery a {
 	display: block;
+	width: 100.877193%;
+	height: 130px;
 }
 
 #gallery a:hover {
-	border: 2px solid rgb(68, 83, 148);
+	border: 2px solid rgb(207, 29, 41);
 }
 
 #gallery a:active {

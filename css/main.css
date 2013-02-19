@@ -250,7 +250,7 @@ aside span {
 
 #form_signup {
 	clear: left;
-	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.8);
 	height: 360px;
 	border-radius: 10px;
 	opacity: 0.8;
@@ -285,4 +285,10 @@ aside span {
 
 #form_signup a:active {
 	color: rgb(68, 83, 148);
+}
+
+/* footer styling ----------------------------------------------------- */
+
+footer p {
+	text-align: center;
 }

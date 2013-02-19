@@ -314,6 +314,21 @@ footer p{
 
 	/* mobile landscape size to tablet portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	#logo, #nav_main {
+		float: none;
+		margin: auto;
+	}
+	
+	#logo {
+		width: 25%;
+	}
+	
+	header p {
+		float: none;
+		width: inherit;
+		margin: 8px auto; 
+	}
 }
 
 	/* mobile portrait size to mobile landscape size (devices and browsers) */

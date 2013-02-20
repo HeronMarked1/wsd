@@ -338,6 +338,19 @@ footer p{
 		width: 90%;
 		margin-top: 15px;
 	}
+	
+	article, aside span {
+		margin-top: 15px;
+	}
+	
+	article p {
+		text-align: left;
+	}
+	
+	aside span {
+		font-size: 125%;
+		line-height: 189%;
+	}
 }
 
 	/* mobile portrait size to mobile landscape size (devices and browsers) */

@@ -315,7 +315,7 @@ footer p{
 	/* mobile landscape size to tablet portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 	
-	#logo, #nav_main {
+	#logo, #nav_main, #lessons_guitar, #lessons_theory {
 		float: none;
 		margin: auto;
 	}
@@ -332,6 +332,11 @@ footer p{
 	
 	#gallery {
 	margin-top: 93px;
+	}
+	
+	#lessons_guitar, #lessons_theory {
+		width: 90%;
+		margin-top: 15px;
 	}
 }
 

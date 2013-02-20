@@ -329,6 +329,10 @@ footer p{
 		width: inherit;
 		margin: 8px auto; 
 	}
+	
+	#gallery {
+		margin: 40
+	}
 }
 
 	/* mobile portrait size to mobile landscape size (devices and browsers) */

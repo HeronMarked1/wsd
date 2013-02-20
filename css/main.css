@@ -62,7 +62,7 @@ h1 {
 	font-size: 125%;
 	text-shadow: 1px 1px 1px #111;
 	width: 66.666667%; /* 640px/960px */
-	height: 36.363636%; /* 40px/110px */
+	height: 40px; 
 	background: rgb(207, 29, 41);
 	border-radius: 5px;
 }
@@ -76,8 +76,8 @@ h1 {
 	float: left;
 	display: block;
 	width: 33.3333333333333333333333%; /* 213px/640px */
-	height: 36.363636%; /* 40px/110px */
-	line-height: 185%; /* 40px/110px */
+	height: 40px;
+	line-height: 40px; 
 	text-align: center;
 }
 
@@ -111,7 +111,7 @@ header p a {
 	background-image: url(../images/button_signup.png);
 	display: block;
 	width: 46.71875%; /* 299px/640px */
-	height: 59%; /* 59px/100px */
+	height: 59px;
 	color: rgb(255, 255, 255);	
 	text-decoration: none;
 	border-radius: 6px;	
@@ -266,7 +266,7 @@ aside span {
 .text_button {
 	font-family: "roboto condensed", ariel, sans-serif;
 	font-weight: bold;
-	font-size: 26pt;
+	font-size: 216.666667%; /* 26pt */
 	text-shadow: 2px 2px 2px #111;
 	text-align: center;
 	line-height: 59px;
@@ -355,6 +355,55 @@ footer p{
 
 	/* mobile portrait size to mobile landscape size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+	
+	#logo, #nav_main, #lessons_guitar, #lessons_theory {
+		float: none;
+		margin: auto;
+	}
+	
+	#logo {
+		display: none;
+	}
+	
+	#nav_main {
+		margin-top: 10px;
+		height: 80px;
+		width: 98%;
+	}
+	
+	#nav_main li {
+		height: 80px;
+		line-height: 80px;
+		font-size: 158.333333%; /* 19pt */
+	}
+	
+	header p {
+		float: none;
+		width: inherit;
+		margin: 33px auto; 
+	}
+	
+	#gallery {
+	margin-top: 93px;
+	}
+	
+	#lessons_guitar, #lessons_theory {
+		width: 90%;
+		margin-top: 15px;
+	}
+	
+	article, aside span {
+		margin-top: 15px;
+	}
+	
+	article p {
+		text-align: left;
+	}
+	
+	aside span {
+		font-size: 125%;
+		line-height: 189%;
+	}	
 }
 	
 	

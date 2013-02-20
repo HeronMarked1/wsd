@@ -109,6 +109,7 @@ header p {
 
 header p a {
 	background-image: url(../images/button_signup.png);
+	background-repeat: no-repeat;
 	display: block;
 	width: 46.71875%; /* 299px/640px */
 	height: 59px;
@@ -331,7 +332,7 @@ footer p{
 	}
 	
 	#gallery {
-	margin-top: 93px;
+		margin-top: 93px;
 	}
 	
 	#lessons_guitar, #lessons_theory {

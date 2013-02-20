@@ -384,16 +384,22 @@ footer p{
 	}
 	
 	#gallery {
-	margin-top: 93px;
+	display: none;
 	}
 	
-	#lessons_guitar, #lessons_theory {
+	#lessons_guitar {
+		width: 90%;
+		margin-top: 95px;
+	}
+	
+	#lessons_theory {
 		width: 90%;
 		margin-top: 15px;
 	}
 	
-	article, aside span {
+	article {
 		margin-top: 15px;
+		width: 90%;
 	}
 	
 	article p {
@@ -401,9 +407,11 @@ footer p{
 	}
 	
 	aside span {
-		font-size: 125%;
-		line-height: 189%;
-	}	
+		clear: left;
+		margin-top: 15px;
+		width: 90%;
+		font-size: 100%;
+	}
 }
 	
 	

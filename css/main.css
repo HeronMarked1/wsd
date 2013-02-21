@@ -307,10 +307,15 @@ footer p{
 
 	/* tablet portrait size to standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
+	
 	article p {
 		width: 58.870968%; /* 365px/620px */
 		float: right;
 	}
+	
+	aside span {
+		line-height: 183%; 
+	}	
 }
 
 	/* mobile landscape size to tablet portrait (devices and browsers) */
@@ -322,7 +327,7 @@ footer p{
 	}
 	
 	#logo {
-		width: 25%;
+		width: 20%;
 	}
 	
 	header p {

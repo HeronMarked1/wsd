@@ -48,7 +48,6 @@ h1 {
 #logo {
 	float: left;
 	width: 15.9375%; /* 153px/960px */
-	height: 90.909091%; /* 100px/110px */
 	margin-left: 5.8510638%; /* 55px/940px */
 }
 
@@ -149,14 +148,13 @@ header p a:active {
 	overflow: hidden;
 }
 
-#gallery a {
-	display: block;
-	width: 100.877193%;
-	height: 130px;
+#gallery li:hover {
+	border: 2px solid rgb(207, 29, 41);
 }
 
-#gallery a:hover {
-	border: 2px solid rgb(207, 29, 41);
+#gallery a {
+	display: block;
+	width: 100%;
 }
 
 #gallery a:active {
@@ -307,6 +305,10 @@ footer p{
 
 	/* tablet portrait size to standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
+	
+	header p {
+		margin-top: 5px;
+	}
 	
 	article p {
 		width: 58.870968%; /* 365px/620px */

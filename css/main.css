@@ -270,21 +270,21 @@ aside span {
 	line-height: 59px;
 }
 
-#form_signup a {
+#button_signup {
 	background-image: url(../images/button_signup.png);
 	display: block;
 	width: 31.145833%; /* 299px/960px */
 	height: 59px;
 	color: rgb(255, 255, 255);	
 	text-decoration: none;
-	border-radius: 6px;	
+	border-radius: 6px;
 }
 
-#form_signup a:hover {
+#button_signup input:hover {
 	opacity: 0.8;
 }
 
-#form_signup a:active {
+#button_signup input:active {
 	color: rgb(68, 83, 148);
 }
 

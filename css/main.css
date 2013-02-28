@@ -273,18 +273,18 @@ aside span {
 #button_signup {
 	background-image: url(../images/button_signup.png);
 	display: block;
-	width: 31.145833%; /* 299px/960px */
+	width: 31.808511%; /* 299px/940px */
 	height: 59px;
 	color: rgb(255, 255, 255);	
 	text-decoration: none;
 	border-radius: 6px;
 }
 
-#button_signup input:hover {
+#button_signup:hover {
 	opacity: 0.8;
 }
 
-#button_signup input:active {
+#button_signup:active {
 	color: rgb(68, 83, 148);
 }
 

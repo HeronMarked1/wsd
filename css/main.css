@@ -266,6 +266,16 @@ aside span {
 	width: 50%;
 }
 
+.field_type input {
+	width: 50%;
+	float: right;
+	margin-right: 30%;
+}
+
+#wrapper_form div {
+	margin: 5px auto;
+}
+
 .text_button {
 	font-family: "roboto condensed", ariel, sans-serif;
 	font-weight: bold;
@@ -283,6 +293,7 @@ aside span {
 	color: rgb(255, 255, 255);	
 	text-decoration: none;
 	border-radius: 6px;
+	margin: 0 auto;
 }
 
 #button_signup:hover {

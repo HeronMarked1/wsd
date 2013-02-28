@@ -274,7 +274,7 @@ aside span {
 #form_signup a {
 	background-image: url(../images/button_signup.png);
 	display: block;
-	width: 299px;
+	width: 31.145833%; /* 299px/960px */
 	height: 59px;
 	color: rgb(255, 255, 255);	
 	text-decoration: none;

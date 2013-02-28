@@ -252,6 +252,8 @@ aside span {
 
 #signup_plus_rates {
 	clear: left;
+	float: left;
+	width: 100%;
 	background: rgba(255, 255, 255, 0.8);
 	height: 360px;
 	border-radius: 10px;

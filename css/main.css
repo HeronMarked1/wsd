@@ -261,6 +261,11 @@ aside span {
 	overflow: hidden;
 }
 
+#wrapper_form {
+	float: left;
+	width: 50%;
+}
+
 .text_button {
 	font-family: "roboto condensed", ariel, sans-serif;
 	font-weight: bold;
@@ -273,7 +278,7 @@ aside span {
 #button_signup {
 	background-image: url(../images/button_signup.png);
 	display: block;
-	width: 31.808511%; /* 299px/940px */
+	width: 63.617021%; /* 299px/470px */
 	height: 59px;
 	color: rgb(255, 255, 255);	
 	text-decoration: none;

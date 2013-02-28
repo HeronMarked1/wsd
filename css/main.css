@@ -308,10 +308,12 @@ table {
 	float; left;
 	width: 50%;
 	border-collapse: collapse;
+	text-align: center;
 }
 
 td {
 	border: 1px solid rgb(68, 83, 148);
+	width: 25%;
 }
 
 /* footer styling ----------------------------------------------------- */

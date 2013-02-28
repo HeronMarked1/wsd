@@ -75,77 +75,80 @@
       	<p class="text_main"><span>Need to get more guitar <strong>strings</strong>, <strong>picks</strong> or other <strong>accessories</strong>? 
         Head over to <a href="htto://www.guitarcenter.com">Guitar Center</a> - they will have what you need!</span></p>
     </aside> <!-- end of guitar center ad -->
-    <section id="form_signup">
-      	<h2>Sign Up for Lessons!</h2>
-      	<p class="text_main">Please fill out the form below:</p>
-      	<form method="post" action="signup.html">
-      		<div class="field_type">
-      			<label for="name_first">First Name</label>
-      			<input type="text" name="name_first" id="name_first"/>
-      		</div>
-      		<div class="field_type">
-      			<label for="name_last">Last Name</label>
-      			<input type="text" name="name_last" id="name_last"/>
-      		</div>
-			<div class="field_type">
-      			<label for="email">Email</label>
-      			<input type="text" name="email" id="email"/>
-      		</div>
-      		<div class="radio">
-      			<label for="lesson_length">1 Hour Lesson</label>
-      			<input type="radio" name="lesson_length" id="lesson_1hr" value="1hour" checked="checked"/>
-      		</div> 
-      		<div class="radio">
-      			<label for="lesson_30min">30 Min Lesson</label>
-      			<input type="radio" name="lesson_length" id="lesson_30min" value="30min"/>
-      		</div>
-      		<div class="dropdown">
-      			<label for="lesson_type">Select Lesson Type</label>
-      			<select name="lesson_type" id="lesson_type">
-      				<option>Guitar Lessons</option>
-      				<option>Theory Lessons</option>
-      			</select>
-      		</div>
-      		<div class="dropdown">
-      			<label for="lesson_day1">Best Lesson Day</label>
-      			<select name="lesson_day1" id="lesson_day1">
-      				<option>Tuesday</option>
-      				<option>Thursday</option>
-      				<option>Other</option>
-      			</select>
-      		</div>
-      		<div class="dropdown">
-      			<label for="lesson_day2">2<span>nd</span> Best Lesson Day</label>
-      			<select name="lesson_day2" id="lesson_day2">
-      				<option>Tuesday</option>
-      				<option>Thursday</option>
-      				<option>Other</option>
-      			</select>
-      		</div>            	
-      		<p><input type="submit" name="signup" id="button_signup" class="text_button" value="Sign Up"/><p>
-    </section>
-    <section id="rates">
-    	<h2>Lesson Rates</h2>
-    	<table>
-    		<tr>
-    			<th>Length</th>
-    			<th>Rate</th>
-    			<th>12-Lesson Bulk Ratte</th>
-    			<th>24-Lesson Bulk Rate</th>
-    		</tr>
-    		<tr>
-    			<td>30 min</td>
-    			<td>$25.00</td>
-    			<td>$250.00</td>
-    			<td>$450.00</td>
-    		</tr>
-    		<tr>
-    			<td>1-Hour</td>
-    			<td>$50.00</td>
-    			<td>$485.00</td>
-    			<td>$900.00</td>
-    		</tr>
-    	</table>
+    <section id="signup_plus_rates">
+      	<div id="wrapper_form">
+      		<h2>Sign Up for Lessons!</h2>
+      		<p class="text_main">Please fill out the form below:</p>
+      		<form method="post" action="signup.html">
+      			<div class="field_type">
+      				<label for="name_first">First Name</label>
+      				<input type="text" name="name_first" id="name_first"/>
+      			</div>
+      			<div class="field_type">
+      				<label for="name_last">Last Name</label>
+      				<input type="text" name="name_last" id="name_last"/>
+      			</div>
+				<div class="field_type">
+      				<label for="email">Email</label>
+      				<input type="text" name="email" id="email"/>
+      			</div>
+      			<div class="radio">
+      				<label for="lesson_length">1 Hour Lesson</label>
+      				<input type="radio" name="lesson_length" id="lesson_1hr" value="1hour" checked="checked"/>
+      			</div> 
+      			<div class="radio">
+      				<label for="lesson_30min">30 Min Lesson</label>
+      				<input type="radio" name="lesson_length" id="lesson_30min" value="30min"/>
+      			</div>
+      			<div class="dropdown">
+      				<label for="lesson_type">Select Lesson Type</label>
+      				<select name="lesson_type" id="lesson_type">
+      					<option>Guitar Lessons</option>
+      					<option>Theory Lessons</option>
+      				</select>
+      			</div>
+      			<div class="dropdown">
+      				<label for="lesson_day1">Best Lesson Day</label>
+      				<select name="lesson_day1" id="lesson_day1">
+      					<option>Tuesday</option>
+      					<option>Thursday</option>
+      					<option>Other</option>
+      				</select>
+      			</div>
+      			<div class="dropdown">
+      				<label for="lesson_day2">2<span>nd</span> Best Lesson Day</label>
+      				<select name="lesson_day2" id="lesson_day2">
+      					<option>Tuesday</option>
+      					<option>Thursday</option>
+      					<option>Other</option>
+      				</select>
+      			</div>            	
+      			<p><input type="submit" name="signup" id="button_signup" class="text_button" value="Sign Up"/><p>
+    		</form>
+    	</div>
+    	<div id="wrapper_rates">
+    		<h2>Lesson Rates</h2>
+    		<table>
+    			<tr>
+    				<th>Length</th>
+    				<th>Rate</th>
+    				<th>12-Lesson Bulk Ratte</th>
+    				<th>24-Lesson Bulk Rate</th>
+    			</tr>
+    			<tr>
+    				<td>30 min</td>
+    				<td>$25.00</td>
+    				<td>$250.00</td>
+    				<td>$450.00</td>
+    			</tr>
+    			<tr>
+    				<td>1-Hour</td>
+    				<td>$50.00</td>
+    				<td>$485.00</td>
+    				<td>$900.00</td>
+    			</tr>
+    		</table>
+    	</div>
     </section>
     <!-- end of sign up form -->
     <footer>

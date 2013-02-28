@@ -304,6 +304,16 @@ aside span {
 	color: rgb(68, 83, 148);
 }
 
+table {
+	float; left;
+	width: 50%;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid rgb(68, 83, 148);
+}
+
 /* footer styling ----------------------------------------------------- */
 
 footer {

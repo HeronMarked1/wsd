@@ -161,6 +161,22 @@ header p a:active {
 	border: 2px solid rgb(255, 255, 255);
 }
 
+/* welcome & columns section --------------------------------------------------- */
+
+#columns {
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #111;
+	padding: 2.0833333%;
+	margin-top: 20px;
+}
+
+#columns p {
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+}
+
 /*lesson information section ----------------------------------------- */
 
 h2 {
@@ -383,6 +399,12 @@ footer p{
 		margin-top: 93px;
 	}
 	
+	#columns p {
+		column-count: 1;
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+	}
+	
 	#lessons_guitar, #lessons_theory {
 		width: 90%;
 		margin-top: 15px;
@@ -467,9 +489,19 @@ footer p{
 	display: none;
 	}
 	
+	#columns {
+		margin-top: 95px;
+	}
+	
+	#columns p {
+		column-count: 1;
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+	}
+	
 	#lessons_guitar {
 		width: 90%;
-		margin-top: 95px;
+		margin-top: 15px;
 	}
 	
 	#lessons_theory {

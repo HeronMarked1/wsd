@@ -313,6 +313,11 @@ table {
 	text-align: center;
 }
 
+th {
+	background: rgb(207, 29, 41);
+	color: #fff;
+}
+
 td {
 	border: 1px solid rgb(68, 83, 148);
 	width: 25%;

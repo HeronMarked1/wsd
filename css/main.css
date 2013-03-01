@@ -253,12 +253,12 @@ aside span {
 #signup_plus_rates, #signup_complete {
 	clear: left;
 	float: left;
-	width: 100%;
+	width: 97.15%;
 	background: rgba(255, 255, 255, 0.8);
 	height: 360px;
 	border-radius: 10px;
 	padding: 15px;
-	margin: 25px 0px 0px;
+	margin: 25px auto 0px;
 	box-shadow: 2px 2px 2px #111;
 }
 
@@ -400,6 +400,37 @@ footer p{
 		font-size: 125%;
 		line-height: 189%;
 	}
+	
+	#wrapper_rates, #wrapper_form {
+		width: 100%;
+		margin: 15px auto;
+	}
+	
+	.field_type input {
+		width: 65%;
+		margin-right: 8%;
+	}
+	
+	#button_signup {
+		width: 25%;
+	}
+	
+	#wrapper_rates {
+		clear: left;
+	}
+	
+	#wrapper_rates h2{
+		text-align: left;
+	}
+	
+	table {
+		margin: 0px;
+		width: 100%;
+	}
+	
+	#signup_plus_rates {
+		height: 520px;
+	}
 }
 
 	/* mobile portrait size to mobile landscape size (devices and browsers) */
@@ -460,6 +491,37 @@ footer p{
 		margin-top: 15px;
 		width: 90%;
 		font-size: 100%;
+	}
+	
+	#wrapper_rates, #wrapper_form {
+		width: 100%;
+		margin: 15px auto;
+	}
+	
+	.field_type input {
+		width: 65%;
+		margin-right: 10%;
+	}
+	
+	#button_signup {
+		width: 30%;
+	}
+	
+	#wrapper_rates {
+		clear: left;
+	}
+	
+	#wrapper_rates h2{
+		text-align: left;
+	}
+	
+	table {
+		margin: 0px;
+		width: 100%;
+	}
+	
+	#signup_plus_rates {
+		height: 530px;
 	}
 }
 	

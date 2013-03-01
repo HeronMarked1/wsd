@@ -250,7 +250,7 @@ aside span {
 
 /* form styling ------------------------------------------------------ */
 
-#signup_plus_rates {
+#signup_plus_rates, #signup_complete {
 	clear: left;
 	float: left;
 	width: 100%;
@@ -260,6 +260,10 @@ aside span {
 	padding: 15px;
 	margin: 25px 0px 0px;
 	box-shadow: 2px 2px 2px #111;
+}
+
+#signup_complete h2, #signup_complete p {
+	text-align: center;
 }
 
 #wrapper_form {
@@ -309,13 +313,16 @@ aside span {
 
 table {
 	width: 50%;
+	margin: 15px auto;
 	border-collapse: collapse;
 	text-align: center;
+	box-shadow: 1px 1px 1px #111;
 }
 
 th {
 	background: rgb(207, 29, 41);
 	color: #fff;
+	border: 1px solid rgb(68, 83, 148);
 }
 
 td {
